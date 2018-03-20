@@ -1,0 +1,280 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Style Tombol */
+.tombol{
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+}
+
+.tombol-small {
+	width: 80px;
+	height: 25px;
+	font-size: 11px;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+}
+
+.tombol-big {
+	width: 155px;
+	height: 50px;
+	font-size: 15px;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+}
+
+.tombol-default {
+	background-color: #3498db;
+	color: #ffffff;
+}
+.tombol-default:hover {
+	background-color: #0881d1;
+	box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+.tombol-success {
+	background-color: #2ecc71;
+	color: #ffffff;
+}
+.tombol-success:hover {
+	background-color: #07a149;
+	box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+.tombol-warning {
+	background-color: #f39c12;
+	color: #ffffff;
+}
+.tombol-warning:hover {
+	background-color: #db8c0d;
+	box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+.tombol-error {
+	background-color: #e74c3c;
+	color: #ffffff;
+}
+.tombol-error:hover {
+	background-color: #e32410;
+	box-shadow: 0px 0px 2px 0px rgba(50, 50, 50, 0.75);
+}
+
+/* Akhir style tombol */
+
+
+/* background-color */
+.bg-default {
+	background-color: #3498db;
+}
+
+.bg-success {
+	background-color: #2ecc71;
+}
+
+.bg-warning {
+	background-color: #f39c12;
+}
+
+.bg-error {
+	background-color: #e74c3c;
+}
+
+/* end background-color */
+
+
+
+/* style kolom grid System*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+		padding: 0.1px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* akhir style kolom */
+
+/* Container */
+
+.container{
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto
+}
+
+.container-full{
+	width: 100%;
+}
+@media (min-width:768px){
+	.container{
+		width:750px
+		}
+}
+@media (min-width:992px){
+	.container{
+		width:970px
+		}
+}
+@media (min-width:1200px){
+	.container{
+		width:1170px
+		}
+}
+
+/* akhir Container */
+
+
+/* style form input */
+form {
+  padding: 10px;
+  /* background: #f9f9f9; */
+  /* border: 1px solid #c1c1c1; */
+  margin-top: 10px;
+}
+form input {
+  margin-bottom: 10px;
+  background: #fff;
+	padding: 8px;
+	font-size: 16px;
+	width: 100%;
+	border-radius: 5px;
+  border: 1px solid #d1d1d1;
+	resize:none;
+}
+
+form textarea {
+  margin-bottom: 10px;
+  background: #fff;
+	padding: 8px;
+	font-size: 16px;
+	width: 100%;
+	border-radius: 5px;
+  border: 1px solid #d1d1d1;
+}
+
+form label {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+/* akhir style form input */
+
+/* style Menu */
+.menu ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+	padding: 10px;
+}
+
+.menu li:hover, .menu li:active {
+	background-color: #0d1318;
+}
+
+
+a {
+	background-color:transparent;
+	text-decoration: none;
+}
+a:active,a:hover{
+	outline:0;
+}
+/* akhir style Menu */
+
+/* style Box */
+.box {
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+	transition: .3s;
+}
+
+.box:hover{
+	box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.75);
+}
+
+.box .box-title {
+	color: rgb(54, 54, 54);
+	padding: 10px;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	font-weight: bold;
+}
+
+.box .box-content {
+	padding: 10px;
+	color: rgb(91, 91, 91);
+}
+
+
+
+
+
+/* end style Box */
+
+
+table {
+	font-family: sans-serif;
+  color: #696969;
+  border-collapse: collapse;
+  width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table tr th {
+	background: #2ecc71;
+  color: #fefefe;
+	padding: 10px;
+  font-weight: bold;
+}
+
+table, th, td {
+	padding: 5px 10px;
+	border-bottom: 1px solid rgb(175, 175, 175);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+table tr:hover {
+	background-color: #f5f5f5;
+}
+
+table tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+/* Akhir Style Table  */
